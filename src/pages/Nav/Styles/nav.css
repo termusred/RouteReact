@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.con1 {
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+}
+a {
+    margin-left: 10rem;
+    color: white;
+    text-decoration: none;
+}

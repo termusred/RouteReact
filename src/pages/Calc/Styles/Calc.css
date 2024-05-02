@@ -1,0 +1,9 @@
+button {
+    height: 4rem;
+    width: 5rem;
+}
+.input {
+    width: 15rem;
+    height: 4rem;
+    background-color: rgb(0, 0, 0);
+}
