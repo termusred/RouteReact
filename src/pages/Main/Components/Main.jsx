@@ -9,7 +9,7 @@ const Main = () => {
     }, [])
     return(
         <div>
-            <h1>Main Page</h1>
+            <h1 className="Main-title">Main Page</h1>
             <div className="Container">
                 {product.map((el) => {
                     return (

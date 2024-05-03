@@ -1,3 +1,18 @@
 .Card-img {
+    border-radius: 1rem;
     width: 12rem;
+}
+body {
+    background-color: rgb(209, 147, 96);
+}
+.card {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 6rem;
+    background-color: rgb(176, 207, 176);
+}
+.Main-title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
