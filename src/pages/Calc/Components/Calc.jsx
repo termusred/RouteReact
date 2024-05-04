@@ -1,26 +1,20 @@
 import "../Styles/Calc.css"
+import { useState } from "react"
 
 const Calc = () => {
+    const [name , Setname]= useState('')
     return (
-        <div>
-            <div className="input"/>
-            <br />
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <br />
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <br />
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <br />
-            <button>0</button>
-            <button>+</button>
-            <button>-</button>
-            <button>*</button>
+        <div className="AddingPlace">
+            <div className="input-holder">
+                <label htmlFor="name">Project name</label>
+                <input type="text" name="name" onChange={(e) => {e.target.value.length < 5 ? alert("no") : alert("yes")}}/>
+                <label htmlFor="description">Project description</label>
+                <input type="text" name="description"/>
+
+                <input type="file" />
+
+                <input type="submit"/>
+            </div>
         </div>
     )
 }

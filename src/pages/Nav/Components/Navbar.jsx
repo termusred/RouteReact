@@ -5,9 +5,9 @@ const Nav = () =>{
     return (
         <nav>
             <con1>
-                <Link to="/">Main</Link>
-                <Link to="/Temp">Temp</Link>
-                <Link to="/Calc">Calc</Link>
+                <Link to="/">AboutUs</Link>
+                <Link to="/Temp">Fiels</Link>
+                <Link to="/Calc">Add new fiel</Link>
             </con1>
             <con2>
                 <Link to="/Login">Login</Link>

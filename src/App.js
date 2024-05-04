@@ -4,6 +4,7 @@ import Main from "./pages/Main/Components/Main"
 import Calc from "./pages/Calc/Components/Calc"
 import Temp from "./pages/Temp/components/Degree"
 import Login from "./pages/Form/components/Form"
+import NotFound from "./pages/NotFound/components/NotFound"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Calc" element={<Calc/>}/>
         <Route path="/Temp" element={<Temp/>}/>
         <Route path="/Login" element={<Login/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>
   );
